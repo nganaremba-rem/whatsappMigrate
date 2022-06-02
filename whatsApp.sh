@@ -76,6 +76,9 @@ case "$locationDetermine" in
         git clone https://github.com/remku/whatsappMigrate
         bash $HOME/whatsappMigrate/whatsapp.sh
         ;;
+     "6")
+        exit
+        ;;
     *)
         echo "Please select a valid input"
         exit
