@@ -48,11 +48,11 @@ GBToOri(){
 }
 #############################################
 
-echo "Choose where you want to migrate from: "
-echo "1. Original WhatsApp to GBWhatsapp"
-echo "2. GBWhatsApp to Original WhatsApp"
-echo "3. GBWhatsApp to FuadWhatsApp"
-echo "4. FuadWhatsApp to GBWhatsApp"
+echo -e "\n\n\e[1;101m=== RemApple WhatsApp Migrate ===\e[0m"
+echo -e "\e[1;92m1. Original WhatsApp to GBWhatsapp\e[0m"
+echo -e "\e[1;93m2. GBWhatsApp to Original WhatsApp\e[0m"
+echo -e "\e[1;94m3. GBWhatsApp to FuadWhatsApp\e[0m"
+echo -e "\e[1;95m4. FuadWhatsApp to GBWhatsApp\e[0m"
 echo -en "\n==> "
 read locationDetermine
 
