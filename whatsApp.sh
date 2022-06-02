@@ -55,7 +55,7 @@ echo -e "\e[1;93m2. GBWhatsApp to Original WhatsApp\e[0m"
 echo -e "\e[1;94m3. GBWhatsApp to FuadWhatsApp\e[0m"
 echo -e "\e[1;95m4. FuadWhatsApp to GBWhatsApp\e[0m"
 echo -e "\e[1;96m5. Update Program\e[0m"
-echo -e "\e[1;104m6. Exite\e[0m"
+echo -e "6. \e[1;104mExit\e[0m"
 echo -en "\n==> "
 read locationDetermine
 
@@ -71,11 +71,10 @@ case "$locationDetermine" in
         GBToOri
         ;;
     "5")
-        rm -rf $HOME/whatsappMigrate
         cd $HOME
+        rm -rf $HOME/whatsappMigrate
         git clone https://github.com/remku/whatsappMigrate
-        cd whatsappMigrate
-        bash whatsapp.sh
+        bash $HOME/whatsappMigrate/whatsapp.sh
         ;;
     *)
         echo "Please select a valid input"
