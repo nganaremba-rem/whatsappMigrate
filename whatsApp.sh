@@ -74,7 +74,7 @@ case "$locationDetermine" in
         cd $HOME
         rm -rf $HOME/whatsappMigrate
         git clone https://github.com/remku/whatsappMigrate
-        bash $HOME/whatsappMigrate/whatsapp.sh
+        bash $HOME/whatsappMigrate/whatsApp.sh
         ;;
      "6")
         exit
