@@ -1,3 +1,4 @@
+clear
 # granting termux storage
 grant_permission(){
     yes | termux-setup-storage
