@@ -50,7 +50,7 @@ GBToOri(){
 #############################################
 
 echo -e "\e[1;104m=== RemApple WhatsApp Migrate ===\e[0m"
-echo -e "( Switch whatsApp without losing any data )\n"
+echo -e "(Switch whatsApp without losing data)\n"
 
 echo -e "\e[1;92m1. Original WhatsApp to GBWhatsapp\e[0m"
 echo -e "\e[1;93m2. GBWhatsApp to Original WhatsApp\e[0m"
