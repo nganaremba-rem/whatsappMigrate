@@ -49,13 +49,13 @@ GBToOri(){
 }
 #############################################
 
-echo -e "\e[1;102m=== RemApple WhatsApp Migrate ===\e[0m\n"
+echo -e "\e[1;104m=== RemApple WhatsApp Migrate ===\e[0m\n"
 echo -e "\e[1;92m1. Original WhatsApp to GBWhatsapp\e[0m"
 echo -e "\e[1;93m2. GBWhatsApp to Original WhatsApp\e[0m"
 echo -e "\e[1;94m3. GBWhatsApp to FuadWhatsApp\e[0m"
 echo -e "\e[1;95m4. FuadWhatsApp to GBWhatsApp\e[0m"
 echo -e "\e[1;96m5. Update Program\e[0m"
-echo -e "6. \e[1;104mExit\e[0m"
+echo -e "6. \e[1;101mExit\e[0m"
 echo -en "\n==> "
 read locationDetermine
 
